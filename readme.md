@@ -1,5 +1,6 @@
 # Sitecore.Support.160930
-Fix the issue with saving the System.Web.Mvc.SelectListItem value to the analytics database when using horizontal checkbox list
+If the horizontal `Checkbox List` field is used on `ASP.NET MVC Form` its value is saved as `System.Web.Mvc.SelectListItem` to the analytics database.<br/>
+This patch fixes the described behavior.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.160930/blob/master/LICENSE).  

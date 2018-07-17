@@ -46,7 +46,7 @@
 								<td>
 									@using (Html.BeginTag("label"))
 									{
-										<input type="checkbox" value="@Model.Items[index]" id="@Html.IdFor(x => Model.Value)" name="@Html.NameFor(x => Model.Value)" @(Model.Items[index].Selected ? "checked" : string.Empty) />
+										<input type="checkbox" value="@Model.Items[index].Value" id="@Html.IdFor(x => Model.Value)" name="@Html.NameFor(x => Model.Value)" @(Model.Items[index].Selected ? "checked" : string.Empty) />
 										@Html.DisplayFor(m => Model.Items[index].Text)
 									}
 								</td>
